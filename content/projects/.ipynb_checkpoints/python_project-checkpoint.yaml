@@ -1,0 +1,51 @@
+# ============================================================
+# content/projects/red_wine_supernova.yaml
+# ============================================================
+# Project: Red Wine Supernova - Chemical Quality Prediction
+# ============================================================
+
+title: "Red Wine Supernova: Quality Prediction"
+
+short_summary: >
+  Explored the chemical profiles of red and white wines to determine 
+  which laboratory measurements most significantly influence quality 
+  ratings. Developed a predictive model to forecast quality scores 
+  while addressing challenges like imbalanced classes and feature 
+  multicollinearity.
+
+tech_stack:
+  - Python
+  - Pandas
+  - Scikit-learn
+  - Seaborn
+  - Matplotlib
+
+problem_statement: >
+  Wine quality is often perceived as subjective, but it is driven by 
+  objective chemical properties. The goal of this project was to 
+  determine if laboratory measurements—such as acidity, residual sugar, 
+  and alcohol content—could accurately predict the quality scores 
+  assigned by experts. A key challenge was the imbalanced nature of 
+  the dataset, which featured a high concentration of "average" 
+  quality wines.
+
+approach: >
+  Merged and processed the UCI Red and White Wine datasets, 
+  implementing feature engineering by creating dummy variables for 
+  wine color. Performed Exploratory Data Analysis (EDA) to identify 
+  highly correlated features, such as density and alcohol, that could 
+  cause multicollinearity. Utilized Scikit-learn to build and evaluate 
+  predictive models, focusing on handling class imbalances to 
+  improve the detection of "exceptional" wine ratings.
+
+results_impact: >
+  Identified alcohol content and volatile acidity as primary 
+  indicators of quality. The project established a reproducible 
+  pipeline for chemical data analysis and highlighted the importance 
+  of data preprocessing in environmental and food science modeling. 
+  This analysis provides a framework for using objective data to 
+  standardize quality assessments in the viticulture industry.
+
+repo_url: "https://github.com/CharlieMalick/red-wine-supernova"
+notebook_url: "https://github.com/CharlieMalick/red-wine-supernova/blob/main/.ipynb_checkpoints/red_wine_supernova-checkpoint.ipynb"
+image_path: "img/wine_quality.png"

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidharth Rao | Data Science Portfolio</title>
+
+  <!-- Base styles always loaded -->
+  <link rel="stylesheet" href="css/base.css" />
+
+  <!-- Theme stylesheet — controlled by `theme` in portfolio_config.yaml -->
+  <link rel="stylesheet" href="css/themes/purple.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-name">Sidharth Rao</div>
+      <div class="header-tagline">MSU Data Science Grad | Job Hunter </div>
+    </div>
+
+    <!-- Navigation bar -->
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== Main content (filled in by child templates) ===== -->
+  <main class="site-main">
+    
+
+<!-- ===== About section ===== -->
+<section id="about" class="section about-section">
+  <h2>About Me</h2>
+  <div class="about-text"><p>I'm a recent data science graduate from Michigan State University.
+For the past year, I have been focusing on working with data visualizations,
+machine learning, and experimenting with new software and languages to help
+further my understanding of the fields in my major that are rapidly growing every
+passing day.</p>
+<p>My projects focus on turning complex data into clear insights that
+anyone can understand. I believe the best analysis is one
+that any person can understand and draw a conclusion from.</p>
+<p>As of right now, I am currently in the process of completing certifications,
+building up new projects to add to my repertoire, and rewriting my resume that 
+I will use for applying to data analyst and engineering roles.</p></div>
+</section>
+
+<!-- ===== Projects section ===== -->
+<section id="projects" class="section projects-section">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/aws.png"
+          alt="Thumbnail for NYC 311 Service Request Modeling"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">NYC 311 Service Request Modeling</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Developed a scalable data pipeline and predictive model to categorize  daily complaint volumes for NYC city agencies. By leveraging AWS cloud  infrastructure and historical 311 data, this project provides a  framework for city departments to anticipate high-demand periods and  allocate resources more effectively.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">AWS S3</span>
+          
+          <span class="tech-badge">AWS Athena</span>
+          
+          <span class="tech-badge">Scikit-learn</span>
+          
+          <span class="tech-badge">Logistic Regression</span>
+          
+          <span class="tech-badge">SQL</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>NYC&#39;s 311 system processes millions of requests annually, ranging from  noise complaints to infrastructure repairs. City agencies often struggle  to anticipate &#34;surge&#34; days where complaint volumes exceed typical  thresholds. The goal was to create a modeling plan that could categorize  upcoming service request volumes into &#39;low&#39;, &#39;medium&#39;, or &#39;high&#39;  priority levels based on historical temporal patterns.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Stored and managed massive datasets within AWS S3 buckets and utilized  AWS Athena for serverless SQL queries to perform feature engineering  on millions of rows. I developed a modeling plan using Logistic  Regression to classify daily complaint volumes. The pipeline involved  extracting data from the SCHOLAR repository, cleaning temporal features,  and preparing the data for a cloud-native machine learning workflow.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The modeling plan established a clear path for using cloud-based data  warehousing to drive urban operational decisions. By successfully  categorizing complaint volumes using logistic regression, the project  demonstrated how city agencies can transition from reactive to  proactive staffing. This work serves as a cornerstone of my senior  year work at Michigan State University.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/CharlieMalick/aws-nyc311-raosidha" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/CharlieMalick/aws-nyc311-raosidha/blob/main/notebooks/stakeholder_question03_linear_learner-Sidharth_Rao.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/wine_quality.png"
+          alt="Thumbnail for Red Wine Supernova: Quality Prediction"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Red Wine Supernova: Quality Prediction</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Explored the chemical profiles of red and white wines to determine  which laboratory measurements most significantly influence quality  ratings. Developed a predictive model to forecast quality scores  while addressing challenges like imbalanced classes and feature  multicollinearity.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">Pandas</span>
+          
+          <span class="tech-badge">Scikit-learn</span>
+          
+          <span class="tech-badge">Seaborn</span>
+          
+          <span class="tech-badge">Matplotlib</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Wine quality is often perceived as subjective, but it is driven by  objective chemical properties. The goal of this project was to  determine if laboratory measurements—such as acidity, residual sugar,  and alcohol content—could accurately predict the quality scores  assigned by experts. A key challenge was the imbalanced nature of  the dataset, which featured a high concentration of &#34;average&#34;  quality wines.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Merged and processed the UCI Red and White Wine datasets,  implementing feature engineering by creating dummy variables for  wine color. Performed Exploratory Data Analysis (EDA) to identify  highly correlated features, such as density and alcohol, that could  cause multicollinearity. Utilized Scikit-learn to build and evaluate  predictive models, focusing on handling class imbalances to  improve the detection of &#34;exceptional&#34; wine ratings.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>Identified alcohol content and volatile acidity as primary  indicators of quality. The project established a reproducible  pipeline for chemical data analysis and highlighted the importance  of data preprocessing in environmental and food science modeling.  This analysis provides a framework for using objective data to  standardize quality assessments in the viticulture industry.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/CharlieMalick/red-wine-supernova" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/CharlieMalick/red-wine-supernova/blob/main/.ipynb_checkpoints/red_wine_supernova-checkpoint.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/docker.png"
+          alt="Thumbnail for Containerized Sales &amp; Weather Analysis"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Containerized Sales &amp; Weather Analysis</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Developed a robust data analysis pipeline to correlate regional sales  revenue with Detroit weather patterns. The project emphasizes  reproducibility by utilizing Docker containers and multiple  environment management strategies (Conda/Venv) to ensure consistent  results across different operating systems.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Docker</span>
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">Pandas</span>
+          
+          <span class="tech-badge">Conda</span>
+          
+          <span class="tech-badge">Bash</span>
+          
+          <span class="tech-badge">Matplotlib</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Data analysis scripts often fail when moved between machines due to  version mismatches or missing dependencies. The goal of this project  was to build a multi-source analysis tool—integrating employee,  sales, and weather data—and wrap it in a containerized environment.  This ensures that the &#34;lion&#39;s share&#34; of the cleaning and analysis  logic remains portable and bug-free for any end-user.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Implemented a modular Python architecture consisting of dedicated  scripts for data handling and cleaning. I engineered a pipeline that  processes customer lookups, January sales records, and weather data.  To solve the &#34;it works on my machine&#34; problem, I authored a  Dockerfile to containerize the application, allowing the entire  analysis to run in an isolated environment with mounted volumes for  persistent output storage.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>Successfully automated the generation of regional revenue summaries  and data visualizations. By providing both Conda environment  configurations and Docker support, I reduced setup friction for  collaborators. This project demonstrates my ability to handle  real-world engineering challenges like relative pathing, Python  version mismatches, and automated container builds—core competencies  for a future Data Engineer.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/CharlieMalick/cmse492-hw01-raosidha/tree/main" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/CharlieMalick/cmse492-hw01-raosidha/blob/main/HW01-Sidharth_Rao.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+  </div>
+</section>
+
+<!-- ===== Contact section ===== -->
+<section id="contact" class="section contact-section">
+  <h2>Contact</h2>
+  <ul class="contact-list">
+    
+    <li>
+      <span class="contact-label">Email:</span>
+      <a href="mailto:sidharthsrao4717@gmail.com">sidharthsrao4717@gmail.com</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">LinkedIn:</span>
+      <a href="https://www.linkedin.com/in/sidsrao/" target="_blank" rel="noopener">https://www.linkedin.com/in/sidsrao/</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">GitHub:</span>
+      <a href="https://github.com/CharlieMalick" target="_blank" rel="noopener">https://github.com/CharlieMalick</a>
+    </li>
+    
+  </ul>
+</section>
+
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>Built with the <a href="https://github.com/devinsilvia/professional_portfolio_template">Data Science Portfolio Template</a> &mdash; powered by Python &amp; Jinja2.</p>
+  </footer>
+
+</body>
+</html>

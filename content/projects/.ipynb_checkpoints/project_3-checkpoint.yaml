@@ -1,0 +1,52 @@
+# ============================================================
+# content/projects/project_3.yaml
+# ============================================================
+# Project: Sales & Weather Data Pipeline with Docker
+# ============================================================
+
+title: "Containerized Sales & Weather Analysis"
+
+short_summary: >
+  Developed a robust data analysis pipeline to correlate regional sales 
+  revenue with Detroit weather patterns. The project emphasizes 
+  reproducibility by utilizing Docker containers and multiple 
+  environment management strategies (Conda/Venv) to ensure consistent 
+  results across different operating systems.
+
+tech_stack:
+  - Docker
+  - Python
+  - Pandas
+  - Conda
+  - Bash
+  - Matplotlib
+
+problem_statement: >
+  Data analysis scripts often fail when moved between machines due to 
+  version mismatches or missing dependencies. The goal of this project 
+  was to build a multi-source analysis tool—integrating employee, 
+  sales, and weather data—and wrap it in a containerized environment. 
+  This ensures that the "lion's share" of the cleaning and analysis 
+  logic remains portable and bug-free for any end-user.
+
+approach: >
+  Implemented a modular Python architecture consisting of dedicated 
+  scripts for data handling and cleaning. I engineered a pipeline that 
+  processes customer lookups, January sales records, and weather data. 
+  To solve the "it works on my machine" problem, I authored a 
+  Dockerfile to containerize the application, allowing the entire 
+  analysis to run in an isolated environment with mounted volumes for 
+  persistent output storage.
+
+results_impact: >
+  Successfully automated the generation of regional revenue summaries 
+  and data visualizations. By providing both Conda environment 
+  configurations and Docker support, I reduced setup friction for 
+  collaborators. This project demonstrates my ability to handle 
+  real-world engineering challenges like relative pathing, Python 
+  version mismatches, and automated container builds—core competencies 
+  for a future Data Engineer.
+
+repo_url: "https://github.com/CharlieMalick/cmse492-hw01-raosidha/tree/main"
+notebook_url: "https://github.com/CharlieMalick/cmse492-hw01-raosidha/blob/main/HW01-Sidharth_Rao.ipynb"
+image_path: "img/docker.png"

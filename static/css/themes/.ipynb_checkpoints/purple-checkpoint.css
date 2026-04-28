@@ -1,0 +1,93 @@
+/* ============================================================
+   themes/lavender.css — A soft, professional purple palette.
+   ============================================================ */
+
+body {
+  background-color: #1a1625; /* Deep midnight purple */
+  color: #e6e1f0;           /* Soft lavender-white text */
+}
+
+a {
+  color: #b39ddb;           /* Bright lavender links */
+}
+
+/* Header */
+.site-header {
+  background-color: #241e33; /* Darker violet header */
+  border-bottom: 2px solid #5e35b1; /* Deep purple border */
+}
+
+.header-name {
+  color: #f3e5f5;           /* Almost white purple */
+}
+
+.header-tagline {
+  color: #b0a4c8;           /* Muted lavender */
+}
+
+.site-nav a {
+  color: #b0a4c8;
+}
+
+.site-nav a:hover {
+  color: #d1c4e9;           /* Glowing lavender on hover */
+}
+
+/* Section headings */
+.section h2 {
+  color: #f3e5f5;
+  border-color: #9575cd;    /* Medium lavender accent line */
+}
+
+/* Project card */
+.project-card {
+  background-color: #241e33;
+  border: 1px solid #453b5d;
+}
+
+.project-title {
+  color: #f3e5f5;
+}
+
+.project-summary {
+  color: #ccc2e0;           /* Grey-lavender text */
+}
+
+/* Tech badges */
+.tech-badge {
+  background-color: #4527a0; /* Deep royal purple background */
+  color: #ede7f6;           /* Very light lavender text */
+}
+
+/* Details */
+.project-details {
+  color: #ccc2e0;
+}
+
+.detail-block h4 {
+  color: #9575cd;           /* Accent color for labels */
+}
+
+/* Buttons */
+.btn-repo {
+  background-color: #673ab7; /* Vibrant purple button */
+  color: #ffffff;
+}
+
+.btn-notebook {
+  background-color: #312a42;
+  color: #e6e1f0;
+  border: 1px solid #5e35b1;
+}
+
+/* Contact */
+.contact-list a {
+  color: #b39ddb;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #1a1625;
+  border-top: 1px solid #453b5d;
+  color: #9575cd;
+}

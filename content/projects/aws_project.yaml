@@ -1,0 +1,50 @@
+# ============================================================
+# content/projects/nyc_311_modeling.yaml
+# ============================================================
+# Project: NYC 311 Complaint Volume Prediction
+# ============================================================
+
+title: "NYC 311 Service Request Modeling"
+
+short_summary: >
+  Developed a scalable data pipeline and predictive model to categorize 
+  daily complaint volumes for NYC city agencies. By leveraging AWS cloud 
+  infrastructure and historical 311 data, this project provides a 
+  framework for city departments to anticipate high-demand periods and 
+  allocate resources more effectively.
+
+tech_stack:
+  - Python
+  - AWS S3
+  - AWS Athena
+  - Scikit-learn
+  - Logistic Regression
+  - SQL
+
+problem_statement: >
+  NYC's 311 system processes millions of requests annually, ranging from 
+  noise complaints to infrastructure repairs. City agencies often struggle 
+  to anticipate "surge" days where complaint volumes exceed typical 
+  thresholds. The goal was to create a modeling plan that could categorize 
+  upcoming service request volumes into 'low', 'medium', or 'high' 
+  priority levels based on historical temporal patterns.
+
+approach: >
+  Stored and managed massive datasets within AWS S3 buckets and utilized 
+  AWS Athena for serverless SQL queries to perform feature engineering 
+  on millions of rows. I developed a modeling plan using Logistic 
+  Regression to classify daily complaint volumes. The pipeline involved 
+  extracting data from the SCHOLAR repository, cleaning temporal features, 
+  and preparing the data for a cloud-native machine learning workflow.
+
+results_impact: >
+  The modeling plan established a clear path for using cloud-based data 
+  warehousing to drive urban operational decisions. By successfully 
+  categorizing complaint volumes using logistic regression, the project 
+  demonstrated how city agencies can transition from reactive to 
+  proactive staffing. This work serves as a cornerstone of my senior 
+  year work at Michigan State University.
+
+repo_url: "https://github.com/CharlieMalick/aws-nyc311-raosidha"
+notebook_url: "https://github.com/CharlieMalick/aws-nyc311-raosidha/blob/main/notebooks/stakeholder_question03_linear_learner-Sidharth_Rao.ipynb"
+image_path: "img/aws.png"
