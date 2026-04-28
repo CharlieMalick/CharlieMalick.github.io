@@ -7,22 +7,19 @@
 # ============================================================
 
 name: "Sidharth Rao"
-tagline: "MSU Data Science Grad | Job Hunter "
+tagline: "MSU Data Science Grad | Aspiring Data Engineer"
 
 about: |
-  I'm a recent data science graduate from Michigan State University.
-  For the past year, I have been focusing on working with data visualizations,
-  machine learning, and experimenting with new software and languages to help
-  further my understanding of the fields in my major that are rapidly growing every
-  passing day.
-
-  My projects focus on turning complex data into clear insights that
-  anyone can understand. I believe the best analysis is one
-  that any person can understand and draw a conclusion from.
-
-  As of right now, I am currently in the process of completing certifications,
-  building up new projects to add to my repertoire, and rewriting my resume that 
-  I will use for applying to data analyst and engineering roles.
+  I am a Data Science graduate from Michigan State University who is working towards becoming a data engineer.
+  As a Data Science graduate of Michigan State University, I specialize in translating complex numbers into compelling narratives. 
+  I believe the best analysis is one that anyone can understand, regardless of their technical background or understanding.
+  
+  My philosophy is that data is only as valuable as the architecture supporting it. My goal is to turn high-dimensional, complex data into clear, 
+  actionable insights while working with trusted resources that are devoid of any noise or bias.
+  
+  My goals for the rest of the year will be to work more with visualization tools such as Tableau, Streamlit, and PowerBI, work on building AI and ML-related models,
+  contributing to open-source projects, and refreshing my skills in commonly used languages such as Python, SQL, and R. I am currently in the process of completing certifications, building up new projects to add to my
+  repertoire, and rewriting my resume that I will use for applying to data analyst and engineering roles.
 
 # Contact information — remove any fields you prefer not to share
 email: "sidharthsrao4717@gmail.com"
